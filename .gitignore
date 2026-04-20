@@ -1,0 +1,24 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# IDEs / OS files
+.DS_Store
+anaconda_projects/
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Large Files & Data
+# Do not upload large models or customer datasets to GitHub
+data/*.csv
+models/*.pkl
+models/*.h5
+models/*.joblib
