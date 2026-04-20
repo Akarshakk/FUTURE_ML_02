@@ -58,8 +58,14 @@ jupyter notebook notebooks/Ticket_Classification_Prioritization.ipynb
 ```
 Follow the notebook cells to process the data, train the models, and inspect the classification metrics and heatmaps. This will also save `tfidf_vectorizer.pkl`, `ticket_categorizer.pkl`, and `ticket_prioritizer.pkl` in the `models/` folder.
 
-**3. Test the Inference Script**
-Once the models are saved, run:
+**3. Start the Web UI (Streamlit)**
+For a clean, interactive user interface, you can run the Streamlit frontend. It loads the models instantly and provides a GUI.
+```bash
+streamlit run src/app.py
+```
+
+**4. Test the Inference Script (CLI)**
+Alternatively, once the models are saved, run:
 ```bash
 python src/predict_ticket.py --subject "Cannot login to dashboard" --description "I am getting an Error 500 when accessing the portal with my new credentials."
 ```
