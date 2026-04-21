@@ -19,6 +19,6 @@ env/
 # Large Files & Data
 # Do not upload large models or customer datasets to GitHub
 data/*.csv
-models/*.pkl
-models/*.h5
-models/*.joblib
+# models/*.pkl  <-- Commented out to allow Streamlit deployment
+# models/*.h5
+# models/*.joblib
