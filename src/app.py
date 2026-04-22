@@ -30,6 +30,7 @@ def load_models():
         prioritizer = joblib.load(os.path.join(models_dir, 'ticket_prioritizer.pkl'))
         return vectorizer, categorizer, prioritizer
     except FileNotFoundError:
+        st.cache_resource.clear()
         return None, None, None
 
 def predict_ticket(subject, description, vectorizer, categorizer, prioritizer):
