@@ -2,6 +2,8 @@
 
 ![Architecture](https://img.shields.io/badge/Machine_Learning-Decision_Support-blue) ![NLP](https://img.shields.io/badge/NLP-TF--IDF-orange)
 
+## Deployed app link: https://futureml02-9lfj5gomxb4z8y9exmmqeb.streamlit.app
+
 ## Executive Summary: Business Impact
 In modern SaaS companies and IT support operations, support teams waste thousands of hours manually reading, tagging, and routing incoming tickets. This manual triage causes critical issues (like outages or account compromises) to be delayed in the queue behind general inquiries.
 
